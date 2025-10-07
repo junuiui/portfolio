@@ -1,0 +1,34 @@
+{
+  "skills": {
+    "languages": [
+      "C",
+      "C++",
+      "Python",
+      "Java",
+      "JavaScript",
+      "SQL",
+      "Haskell",
+      "Rust",
+      "TypeScript"
+    ],
+    "frameworks": [
+      "Spring",
+      "Spring Boot",
+      "Node.js",
+      "discord.py",
+      "gRPC",
+      "GoogleTest",
+      "OpenCV",
+      "React",
+      "Tailwind CSS"
+    ],
+    "tools_and_systems": [
+      "Git",
+      "CMake",
+      "Postman",
+      "VSCode",
+      "Ubuntu",
+      "Debian"
+    ]
+  }
+}
