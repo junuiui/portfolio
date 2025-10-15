@@ -5,8 +5,6 @@ export default function Home() {
             <div className="py-4  bg-amber-500">
                 Home
             </div>
-
         </>
-
     )
 }
