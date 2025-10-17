@@ -14,16 +14,20 @@ It showcases my projects, skills, and experience as a software developer.
 ---
 
 ## Tech Stack
-- React
-- React Router
-- Tailwind CSS (for styling)
+- `React` – Frontend library
+- `React Router` - Page routing
+- `Tailwind CSS` - Styling
+- `Typewriter-effect` - Animated text effect
 
 ---
 
 ## Installation & Setup
+
 Clone the repository and install dependencies:
+
 ```bash
 git clone https://github.com/<your-username>/jun-portfolio.git
 cd jun-portfolio
 npm install
+npm install tailwindcss typewriter-effect
 npm run dev
