@@ -2,12 +2,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { lazy, Suspense } from 'react';
 
 import './index.css'
-import Header from './components/Header'
-import Home from './components/Home'
-import Footer from './components/Footer'
-import AboutMe from './components/AboutMe'
 import RootLayout from './pages/Root';
 import HomePage from './pages/Home';
+import AboutMePage from './pages/AboutMe';
 
 // const AboutMePage = lazy(() => import('./pages/AboutMe'))
 
@@ -22,7 +19,7 @@ const router = createBrowserRouter([
             },
             {
                 path: 'aboutme',
-                element: <AboutMe />
+                element: <AboutMePage />
             }
         ]
     }
