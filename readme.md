@@ -29,5 +29,6 @@ Clone the repository and install dependencies:
 git clone https://github.com/<your-username>/jun-portfolio.git
 cd jun-portfolio
 npm install
-npm install tailwindcss typewriter-effect
+npm install tailwindcss typewriter-effect 
+npm install react-icons --save
 npm run dev
