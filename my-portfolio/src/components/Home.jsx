@@ -1,5 +1,5 @@
 import Typewriter from 'typewriter-effect';
-import devPic from '../../public/devPic.png'
+// import devPic from '../../public/devPic.png'
 
 // Icons
 import { FaInstagram } from "react-icons/fa";
@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center min-h-screen bg-white dark:bg-green-950">
             {/* profile Image  */ }
             <img
-                src={ devPic }
+                // src={ devPic }
                 alt="My profile"
                 className="w-48 h-48 rounded-full shadow-lg mb-6"
             />

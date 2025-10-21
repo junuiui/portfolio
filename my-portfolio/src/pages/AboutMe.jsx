@@ -1,7 +1,7 @@
-export default function AboutMePage() {
-    return (
-        <>
-            <h1>About me</h1>
-        </>
-    )
+import AboutMe from "../components/AboutMe";
+
+function AboutMePage() {
+    return <AboutMe />;
 }
+
+export default AboutMePage;
