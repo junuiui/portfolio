@@ -5,7 +5,7 @@ function RootLayout() {
     return (
         <>
             <MainNavigation />
-            <main className="font-mono bg-white text-gray-900">
+            <main className="font-mono">
                 <Outlet />
             </main>
         </>

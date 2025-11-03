@@ -8,7 +8,7 @@ export default function Header() {
     };
 
     return (
-        <div className="flex items-center justify-between bg-amber-100 text-blue-700 antialiased font-mono text-4xl p-5 sticky top-0 z-50">
+        <div className="flex items-center justify-between bg-[#150DF7] text-[#00ff66] antialiased font-mono text-4xl p-5 sticky top-0 z-50">
             <div>Junui Hong</div>
             <div className="flex gap-2 text-2xl p-2">
                 <Button name="Home" onClick={() => scrollTo("home")} />

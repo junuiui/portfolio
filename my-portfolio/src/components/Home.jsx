@@ -1,15 +1,14 @@
 import Typewriter from 'typewriter-effect';
 // import devPic from '../../public/devPic.png'
 
-// Icons
+//  icons   ####################################
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-
 export default function Home() {
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-white dark:bg-green-950">
+        <div className="flex flex-col items-center justify-center min-h-screen bg-[#150DF7] text-[#00ff66] ">
             {/* profile Image  */ }
             <img
                 // src={ devPic }
@@ -26,8 +25,8 @@ export default function Home() {
                     cursor: '\u200B',
                     delay: 50,
                     deleteSpeed: 5,
-                    wrapperClassName: "text-2xl md:text-2xl font-bold text-gray-800 dark:text-white tracking-wide",
-                    cursorClassName: "text-2xl md:text-2xl font-bold text-gray-800 dark:text-white",
+                    wrapperClassName: "text-2xl md:text-2xl font-bold tracking-wide",
+                    cursorClassName: "text-2xl md:text-2xl font-bold",
                 } }
             />
             {/* social links */ }

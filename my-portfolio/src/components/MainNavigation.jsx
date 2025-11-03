@@ -1,10 +1,8 @@
 import { NavLink } from "react-router-dom";
 
-import { hoverStyle } from "../styles/style";
-
 function MainNavigation() {
     return (
-        <header className="bg-gray-100 shadow">
+        <header className="bg-[#150DF7] text-[#00ff66]">
 
             <nav className="flex justify-between items-center px-6 py-3">
 
@@ -14,16 +12,20 @@ function MainNavigation() {
                 </div>
 
                 <div>
-                    
+
                 </div>
 
                 {/* Links (right) */}
-                <ul className="flex space-x-6">
+                <ul className="flex space-x-6 relative">
                     <li>
                         <NavLink
                             to="/"
                             end
-                            className={hoverStyle}
+                            className={({ isActive }) =>
+                                `relative transition-all font-semibold text-[#00ff66] 
+                                hover:text-[#e5ff00] ${isActive ? "after:block after:h-1 after:w-full after:bg-[#00ff66] after:absolute after:-bottom-2" : ""
+                                }`
+                            }
                         >
                             Home
                         </NavLink>
@@ -31,12 +33,17 @@ function MainNavigation() {
                     <li>
                         <NavLink
                             to="/aboutme"
-                            className={hoverStyle}
+                            className={({ isActive }) =>
+                                `relative transition-all font-semibold text-[#00ff66] 
+                                hover:text-[#e5ff00] ${isActive ? "after:block after:h-1 after:w-full after:bg-[#00ff66] after:absolute after:-bottom-2" : ""
+                                }`
+                            }
                         >
                             About Me
                         </NavLink>
                     </li>
                 </ul>
+
             </nav>
         </header>
     );
