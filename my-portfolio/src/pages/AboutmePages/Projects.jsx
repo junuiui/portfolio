@@ -2,20 +2,36 @@
  * Showing Projects
  * TODO: 
  *  need to add github.. 
- *  expand? 
+ *  expand? (DONE) / OR Collapse?
+ *  categorize?
  */
 
+import { useState } from 'react'
+
+//  data    ##########################################
 import data from '../../../Data/projects.json';
-import { FaGithub } from "react-icons/fa";
+
+//  icon    ##########################################
+import { FaGithub, FiChevronDown } from 'react-icons/fa';
 
 export default function ProjectsPage() {
+
+    const [visibleCount, setVisibleCount] = useState(2);
+
+    const handleLoadMore = () => {
+        setVisibleCount(prev => prev + 4);
+    };
+
+    // slicing the projects via visibleCount
+    const visibleProjects = data.slice(0, visibleCount);
+
     return (
         <div className="min-h-screen bg-[#150DF7] text-[#00ff66] px-6 py-12 md:px-20 outline-solid">
 
             <h1 className="text-4xl font-bold mb-8">Projects</h1>
 
             <div className="grid gap-10">
-                {data.projects.map((project, index) => (
+                {visibleProjects.map((project, index) => (
                     <div
                         key={index}
                         className="bg-[#0A0A5F] p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300"
@@ -59,8 +75,21 @@ export default function ProjectsPage() {
                             </div>
                         )}
                     </div>
+
                 ))}
             </div>
+
+            {/* Load More 버튼 */}
+            {visibleCount < data.length && (
+                <div className="flex justify-center mt-10">
+                    <button
+                        onClick={handleLoadMore}
+                        className="flex items-center gap-2 text-[#00ff66] hover:text-white font-bold transition-colors"
+                    >
+                        Load More <FiChevronDown className="w-6 h-6 animate-bounce" />
+                    </button>
+                </div>
+            )}
         </div>
     );
 }
