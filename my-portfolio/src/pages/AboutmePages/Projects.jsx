@@ -1,8 +1,6 @@
 // /**
 //  * Showing Projects
 //  * TODO: 
-//  *  need to add github.. 
-//  *  expand? (DONE) / OR Collapse? (DONE)
 //  *  categorize?
 //  */
 
@@ -108,7 +106,7 @@ export default function ProjectsPage() {
                 })}
             </div>
 
-            {/* Load More */}
+            {/* Load All */}
             <div className="flex justify-center mt-10">
                 <button
                     onClick={handleToggleExpand}
