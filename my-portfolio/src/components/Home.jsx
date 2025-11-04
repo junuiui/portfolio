@@ -1,5 +1,7 @@
 import Typewriter from 'typewriter-effect';
-// import devPic from '../../public/devPic.png'
+
+//  picture ####################################
+import devPic from '../assets/redcolor.png'
 
 //  icons   ####################################
 import { FaInstagram } from "react-icons/fa";
@@ -7,19 +9,20 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 export default function Home() {
+
     return (
         <div className="flex flex-col items-center justify-center min-h-screen bg-[#150DF7] text-[#00ff66] ">
-            {/* profile Image  */ }
+            {/* profile Image  */}
             <img
-                // src={ devPic }
+                src={devPic}
                 alt="My profile"
                 className="w-48 h-48 rounded-full shadow-lg mb-6"
             />
 
-            {/* name */ }
+            {/* name */}
             <Typewriter
-                options={ {
-                    strings: ["Hi, I am Junui Hong", "Software Developer/Engineer", "New Grad from Simon Fraser University"],
+                options={{
+                    strings: ["Hi, I am Junui Hong", "Software Developer/Engineer"],
                     autoStart: true,
                     loop: true,
                     cursor: '\u200B',
@@ -27,9 +30,10 @@ export default function Home() {
                     deleteSpeed: 5,
                     wrapperClassName: "text-2xl md:text-2xl font-bold tracking-wide",
                     cursorClassName: "text-2xl md:text-2xl font-bold",
-                } }
+                }}
             />
-            {/* social links */ }
+            
+            {/* social links */}
             <div className="flex gap-6 mt-8">
                 <a href="https://github.com/junuiui" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="w-8 h-8 text-white hover:scale-200 transition-transform" />
