@@ -9,7 +9,7 @@
             "FFmpeg",
             "OpenAI API"
         ],
-        "url": "GitHub",
+        "url": "https://github.com/junuiui/discord_bot66",
         "details": [
             "Developed a modular Discord bot using discord.py, with music playback via yt-dlp and FFmpeg",
             "Integrated OpenAI API for conversational features; structured commands under a custom cog-based architecture",
@@ -27,7 +27,7 @@
             "osmnx",
             "networkx"
         ],
-        "platform": "GitHub",
+        "url": "https://github.com/junuiui/Tour-Recommendation-System",
         "details": [
             "Built a CLI geotagged photo analyzer converting .csv metadata into GPX format using pandas and gpxpy",
             "Used spatial clustering with scikit-learn to identify tourism clusters; queried OSM data with osmnx to detect nearby amenities",
@@ -43,7 +43,7 @@
             "GoogleTest",
             "CMake"
         ],
-        "platform": "GitHub",
+        "url": "https://github.com/junuiui/Social-Gaming-Platform",
         "details": [
             "Led a 7-person Agile team, overseeing sprint planning and conducting code reviews for backend architecture",
             "Built a C++ multiplayer server with WebSocket++ for real-time synchronized play and spectator broadcasting",
@@ -56,7 +56,8 @@
         "year": "2024",
         "tech": [
             "C",
-            "BeagleBone Green"
+            "BeagleBone Green",
+            "Embedded"
         ],
         "url": "https://github.com/junuiui/Traffic_light",
         "details": [
@@ -73,7 +74,8 @@
             "C",
             "JavaScript",
             "Node.js",
-            "BeagleBone Green"
+            "BeagleBone Green",
+            "Embedded"
         ],
         "url": "https://github.com/junuiui/Smart-Door-System",
         "details": [
@@ -105,7 +107,7 @@
             "MATLAB",
             "ROBOTC"
         ],
-        "platform": "SFU - Mechatronic System Engineering",
+        "url": "",
         "details": [
             "Collaborated with mechanical, electrical, and software engineers to build robots capable of line tracking, barcode reading, and maze solving",
             "Developed and tested functionalities using MATLAB and ROBOTC"

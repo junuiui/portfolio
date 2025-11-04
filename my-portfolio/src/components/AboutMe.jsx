@@ -13,7 +13,7 @@ export default function AboutMe() {
      */
 
     return (
-        <div className=" p-10 space-y-20 min-h-screen bg-[#150DF7] text-[#00ff66]">
+        <div className=" p-10 space-y-20 min-h-screen bg-[#100d74] text-[#ffffff]">
             <section id="education" className="">
                 <EducationPage />
             </section>

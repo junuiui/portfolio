@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function MainNavigation() {
     return (
-        <header className="bg-[#150DF7] text-[#00ff66]">
+        <header className="bg-[#100d74] text-[#ffffff]">
 
             <nav className="flex justify-between items-center px-6 py-3 outline-solid">
 
@@ -22,8 +22,8 @@ function MainNavigation() {
                             to="/"
                             end
                             className={({ isActive }) =>
-                                `relative transition-all font-semibold text-[#00ff66] 
-                                hover:text-[#e5ff00] ${isActive ? "after:block after:h-1 after:w-full after:bg-[#00ff66] after:absolute after:-bottom-2" : ""
+                                `relative transition-all font-semibold text-[#ffffff] 
+                                hover:text-[#e5ff00] ${isActive ? "after:block after:h-1 after:w-full after:bg-[#ffffff] after:absolute after:-bottom-2" : ""
                                 }`
                             }
                         >
@@ -34,8 +34,8 @@ function MainNavigation() {
                         <NavLink
                             to="/aboutme"
                             className={({ isActive }) =>
-                                `relative transition-all font-semibold text-[#00ff66] 
-                                hover:text-[#e5ff00] ${isActive ? "after:block after:h-1 after:w-full after:bg-[#00ff66] after:absolute after:-bottom-2" : ""
+                                `relative transition-all font-semibold text-[#ffffff] 
+                                hover:text-[#e5ff00] ${isActive ? "after:block after:h-1 after:w-full after:bg-[#ffffff] after:absolute after:-bottom-2" : ""
                                 }`
                             }
                         >

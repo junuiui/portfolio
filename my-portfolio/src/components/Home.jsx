@@ -11,7 +11,7 @@ import { FaLinkedin } from "react-icons/fa";
 export default function Home() {
 
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-[#150DF7] text-[#00ff66] ">
+        <div className="flex flex-col items-center justify-center min-h-screen bg-[#100d74] text-[#ffffff] ">
             {/* profile Image  */}
             <img
                 src={devPic}
