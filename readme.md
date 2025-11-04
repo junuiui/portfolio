@@ -18,7 +18,6 @@ It showcases my projects, skills, and experience as a software developer.
 - `React Router` - Page routing
 - `Tailwind CSS` - Styling
 - `Typewriter-effect` - Animated text effect
-
 ---
 
 ## Installation & Setup
@@ -29,6 +28,7 @@ Clone the repository and install dependencies:
 git clone https://github.com/<your-username>/jun-portfolio.git
 cd jun-portfolio
 npm install
+npm install @kfonts/neodgm 
 npm install tailwindcss typewriter-effect 
 npm install react-icons --save
 npm run dev
