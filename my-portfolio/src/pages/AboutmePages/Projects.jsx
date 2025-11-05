@@ -35,7 +35,7 @@ export default function ProjectsPage() {
             </h1>
 
             {/* Terminal border box */}
-            <div className="border border-[#00ff66]/40 rounded-lg overflow-hidden shadow-lg shadow-[#00ff66]">
+            <div className="border border-[#ffffff] rounded-lg overflow-hidden shadow-lg shadow-[#ffffff]">
                 {/* Header */}
                 <div className="bg-[#100d74] text-[#ffffff] grid grid-cols-5 gap-4 px-4 py-3 border-b border-[#ffffff] text-sm md:text-base">
                     <span className="col-span-2 font-bold">Project Name</span>
@@ -62,12 +62,12 @@ export default function ProjectsPage() {
                                         <FiChevronDown className="w-4 h-4" />
                                     )}
                                 </span>
-                                <span className="text-[#b0ff99]/80">{project.year}</span>
+                                <span className="text-[#ffffff]">{project.year}</span>
                                 <span className="text-xs flex flex-wrap gap-1">
                                     {project.tech.slice(0, 10).map((t, i) => (
                                         <span
                                             key={i}
-                                            className="bg-[#100d74]/10 border border-[#00ff66]/20 px-2 py-0.5 rounded"
+                                            className="bg-[#100d74]/10 border border-[#ffffff]/20 px-2 py-0.5 rounded"
                                         >
                                             {t}
                                         </span>
@@ -80,7 +80,7 @@ export default function ProjectsPage() {
                                             href={project.url}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="flex items-center gap-1 hover:underline text-[#00ff66]"
+                                            className="flex items-center gap-1 hover:underline text-[#ffffff]"
                                             onClick={(e) => e.stopPropagation()}
                                         >
                                             <FaGithub /> GitHub
@@ -110,7 +110,7 @@ export default function ProjectsPage() {
             <div className="flex justify-center mt-10">
                 <button
                     onClick={handleToggleExpand}
-                    className="flex items-center gap-2 text-[#00ff66] hover:text-white font-bold transition-all"
+                    className="flex items-center gap-2 text-[#ffffff] hover:text-[#00ff66] font-bold transition-all"
                 >
                     {isExpanded ? "Show Less" : "Load All"}
                     <FiArrowDown
