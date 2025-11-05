@@ -93,7 +93,7 @@ export default function ProjectsPage() {
 
                             {/* Details Row */}
                             {isOpen && (
-                                <div className="bg-[#100d74]/5 text-[#ffffff] px-8 py-4 text-sm animate-fadeIn">
+                                <div className="bg-[#100d74]/5 text-[#ffffff] px-8 py-2 text-sm animate-fadeIn">
                                     <ul className="list-disc list-inside space-y-1">
                                         {project.details.map((detail, i) => (
                                             <li key={i}>{detail}</li>
@@ -114,7 +114,7 @@ export default function ProjectsPage() {
                 >
                     {isExpanded ? "Show Less" : "Load All"}
                     <FiArrowDown
-                        className={`w-6 h-6 transition-transform duration-300 ${isExpanded ? "rotate-180" : "animate-bounce"
+                        className={`w-6 h-6 transition-transform duration-300 ${isExpanded ? "rotate-180 animate-bounce" : "animate-bounce"
                             }`}
                     />
                 </button>

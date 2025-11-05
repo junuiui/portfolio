@@ -1,50 +1,54 @@
 {
-    "educations": {
-        "universities": [
-            {
-                "name": "Simon Fraser University",
-                "program": "BSc in Computing Science - Software Systems",
-                "url": "https://www.sfu.ca/",
-                "start": {
-                    "month": "May",
-                    "year": 2022
-                },
-                "end": {
-                    "month": "April",
-                    "year": 2025
-                },
-                "gpa": {
-                    "value": 3.59,
-                    "scale": 4.33
-                },
-                "deans_list": 2
+    "universities": [
+        {
+            "name": "Simon Fraser University",
+            "program": "BSc in Computing Science - Software Systems",
+            "url": "https://www.sfu.ca/",
+            "start": {
+                "month": "May",
+                "year": 2022
             },
-            {
-                "name": "Langara College",
-                "program": "Associate of Science - Computer Science",
-                "url": "https://langara.ca/",
-                "start": {
-                    "month": "September",
-                    "year": 2021
-                },
-                "end": {
-                    "month": "April",
-                    "year": 2022
-                },
-                "gpa": {
-                    "value": 4.06,
-                    "scale": 4.33
-                },
-                "deans_list": 1
+            "end": {
+                "month": "Apr",
+                "year": 2025
+            },
+            "gpa": {
+                "value": 3.59,
+                "scale": 4.33
+            },
+            "deans_list": 2
+        },
+        {
+            "name": "Langara College",
+            "program": "Associate of Science - Computer Science",
+            "url": "https://langara.ca/",
+            "start": {
+                "month": "Sep",
+                "year": 2021
+            },
+            "end": {
+                "month": "Apr",
+                "year": 2022
+            },
+            "gpa": {
+                "value": 4.06,
+                "scale": 4.33
+            },
+            "deans_list": 1
+        }
+    ],
+    "secondaries": [
+        {
+            "name": "Pinetree Secondary School",
+            "url": "https://www.sd43.bc.ca/school/pinetree/Pages/default.aspx",
+            "start": {
+                "month": "Sep",
+                "year": 2014
+            },
+            "end": {
+                "month": "Apr",
+                "year": 2016
             }
-        ],
-        "secondaries": [
-            {
-                "name": "Pinetree Secondary School",
-                "url": "https://www.sd43.bc.ca/school/pinetree/Pages/default.aspx",
-                "start_year": 2014,
-                "end_year": 2016
-            }
-        ]
-    }
+        }
+    ]
 }

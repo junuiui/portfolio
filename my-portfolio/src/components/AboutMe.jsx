@@ -13,18 +13,21 @@ export default function AboutMe() {
      */
 
     return (
-        <div className=" p-10 space-y-20 min-h-screen bg-[#100d74] text-[#ffffff]">
+        <div className="min-h-screen bg-[#100d74] text-[#ffffff]">
+            {/* Projects Section */}
             <section id="projects">
                 <ProjectsPage />
             </section>
 
+            {/* Education Section */}
             <section id="education">
                 <EducationPage />
             </section>
 
+            {/* Skills Section */}
             <section id="skills">
                 <SkillsPage />
             </section>
         </div>
-    )
+    );
 }
