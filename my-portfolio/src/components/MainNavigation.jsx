@@ -11,6 +11,7 @@ function MainNavigation() {
                     Junui Hong
                 </div>
 
+                {/* Center */}
                 <div>
 
                 </div>
