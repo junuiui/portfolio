@@ -5,6 +5,7 @@ import './index.css'
 import RootLayout from './pages/Root';
 import HomePage from './pages/Home';
 import AboutMePage from './pages/AboutMe';
+import ContactPage from './pages/Contact';
 
 const router = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
             {
                 path: 'aboutme',
                 element: <AboutMePage />
+            },
+            {
+                path: 'contact',
+                element: <ContactPage />
             }
         ]
     }

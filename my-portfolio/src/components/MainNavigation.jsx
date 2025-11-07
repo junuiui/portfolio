@@ -42,6 +42,18 @@ function MainNavigation() {
                             About Me
                         </NavLink>
                     </li>
+                    <li>
+                        <NavLink
+                            to="/contact"
+                            className={({ isActive }) =>
+                                `relative transition-all font-semibold text-[#ffffff] 
+                                hover:text-[#e5ff00] ${isActive ? "after:block after:h-1 after:w-full after:bg-[#ffffff] after:absolute after:-bottom-2" : ""
+                                }`
+                            }
+                        >
+                            Contact
+                        </NavLink>
+                    </li>
                 </ul>
 
             </nav>

@@ -7,7 +7,7 @@ import data from '../../../Data/skills.json'
 
 export default function Skills() {
     return (
-        <div className="min-h-screen bg-[#100d74] text-[#ffffff] px-4 md:px-20 font-mono">
+        <div className="min-h-screen bg-[#100d74] text-[#ffffff] px-4 py-12 md:px-20 font-mono">
             {/* Title */}
             <h1 className="text-3xl md:text-4xl font-bold mb-8 border-b text-center border-[#ffffff] pb-3 tracking-tight">
                 SKILLS
