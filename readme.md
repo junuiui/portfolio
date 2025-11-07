@@ -18,6 +18,7 @@ It showcases my projects, skills, and experience as a software developer.
 - `React Router` - Page routing
 - `Tailwind CSS` - Styling
 - `Typewriter-effect` - Animated text effect
+- `emailjs-com` - Sending Email 
 ---
 
 ## Installation & Setup
@@ -31,4 +32,5 @@ npm install
 npm install @kfonts/neodgm 
 npm install tailwindcss typewriter-effect 
 npm install react-icons --save
+npm install emailjs-com
 npm run dev
