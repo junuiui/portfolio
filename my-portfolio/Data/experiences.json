@@ -5,7 +5,7 @@
       "company": "DAEWON Information & Communication Corp.",
       "location": "Korea",
       "start": { "month": "May", "year": 2020 },
-      "end": { "month": "April", "year": 2021 },
+      "end": { "month": "Apr", "year": 2021 },
       "details": [
         "Troubleshot browser, network, and AV system issues at Korea Nazarene University",
         "Performed routine PC and smart device diagnostics across academic buildings",
@@ -16,8 +16,8 @@
       "title": "Artillery Signal Operator (Sergeant Squad Leader)",
       "company": "Republic of Korea Army",
       "location": "Korea",
-      "start": { "month": "June", "year": 2018 },
-      "end": { "month": "January", "year": 2020 },
+      "start": { "month": "Jun", "year": 2018 },
+      "end": { "month": "Jan", "year": 2020 },
       "details": [
         "Led a 10-member squad as sergeant; trained soldiers in secure comm protocols and classified signal use",
         "Led the unit to 2nd place in a brigade-level communication and leadership competition among 10 squads"
@@ -27,7 +27,7 @@
       "title": "Computer Repair Technician",
       "company": "M.I.T. Computer Repair",
       "location": "Burnaby, Canada",
-      "start": { "month": "September", "year": 2015 },
+      "start": { "month": "Sep", "year": 2015 },
       "end": { "month": "May", "year": 2016 },
       "details": [
         "Assisted customers with new computer and accessory purchases",

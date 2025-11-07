@@ -1,4 +1,5 @@
 import EducationPage from "../pages/AboutmePages/Education";
+import ExperiencesPage from "../pages/AboutmePages/Experiences";
 import ProjectsPage from "../pages/AboutmePages/Projects";
 import SkillsPage from "../pages/AboutmePages/Skills";
 
@@ -17,6 +18,11 @@ export default function AboutMe() {
             {/* Projects Section */}
             <section id="projects">
                 <ProjectsPage />
+            </section>
+
+            {/* Experience Section */}
+            <section id="experience">
+                <ExperiencesPage />
             </section>
 
             {/* Education Section */}

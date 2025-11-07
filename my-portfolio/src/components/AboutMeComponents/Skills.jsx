@@ -17,8 +17,8 @@ export default function Skills() {
             <div className="border border-[#ffffff] rounded-lg overflow-hidden shadow-lg shadow-[#ffffff]">
                 {/* Header */}
                 <div className="bg-[#100d74] text-[#ffffff] grid grid-cols-2 md:grid-cols-3 gap-4 px-4 py-3 border-b border-[#ffffff] text-sm md:text-base font-bold">
-                    <span>Category</span>
-                    <span className="col-span-2">Technologies</span>
+                    <span className="font-bold">Category</span>
+                    <span className="col-span-2 font-bold">Technologies</span>
                 </div>
 
                 {/* Languages */}

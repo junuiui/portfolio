@@ -13,11 +13,11 @@ export default function Education() {
             <div className="border border-[#ffffff] rounded-lg overflow-hidden shadow-lg shadow-[#ffffff]">
                 {/* Header */}
                 <div className="bg-[#100d74] text-[#ffffff] grid grid-cols-5 gap-4 px-4 py-3 border-b border-[#ffffff] text-sm md:text-base font-bold">
-                    <span>Institution</span>
-                    <span>Program</span>
-                    <span>Years</span>
-                    <span>GPA</span>
-                    <span>Notes</span>
+                    <span className="font-bold">Institution</span>
+                    <span className="font-bold">Program</span>
+                    <span className="font-bold">Years</span>
+                    <span className="font-bold">GPA</span>
+                    <span className="font-bold">Notes</span>
                 </div>
 
                 {/* University Rows */}
