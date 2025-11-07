@@ -1,5 +1,24 @@
 [
     {
+        "title": "Personal Portfolio Website",
+        "year": "2025",
+        "tech": [
+            "React",
+            "JavaScript",
+            "Tailwind-CSS",
+            "email-js"
+        ],
+        "url": "https://github.com/junuiui/portfolio",
+        "details": [
+            "Built a responsive personal portfolio website using React and Tailwind CSS with a clean, minimal UI design.",
+            "Implemented an interactive project showcase with expandable details and category filtering for better navigation.",
+            "Integrated EmailJS to enable direct email submissions through the contact form.",
+            "Used OpenAI API to generate dynamic text content and enhance user engagement.",
+            "Implemented routing with React Router and smooth text animations via Typewriter-effect",
+            "Deployed the site with environment variable protection and modular component structure for easy scalability."
+        ]
+    },
+    {
         "title": "Discord Bot",
         "year": "2025",
         "tech": [

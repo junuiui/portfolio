@@ -70,7 +70,7 @@ export default function Education() {
                             <a
                                 href={edu.url}
                                 target="_blank"
-                                rel="noopener noreferrer"
+                    f            rel="noopener noreferrer"
                                 className="hover:underline text-[#ffffff]"
                             >
                                 {edu.name}
