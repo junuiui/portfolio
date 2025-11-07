@@ -15,8 +15,8 @@ export default function Education() {
                 <div className="bg-[#100d74] text-[#ffffff] grid grid-cols-5 gap-4 px-4 py-3 border-b border-[#ffffff] text-sm md:text-base font-bold">
                     <span className="font-bold">Institution</span>
                     <span className="font-bold">Program</span>
-                    <span className="font-bold">Years</span>
                     <span className="font-bold">GPA</span>
+                    <span className="font-bold">Years</span>
                     <span className="font-bold">Notes</span>
                 </div>
 
@@ -41,6 +41,10 @@ export default function Education() {
 
                         {/* Program */}
                         <span className="text-sm">{edu.program}</span>
+                        {/* GPA */}
+                        <span>
+                            {edu.gpa.value} / {edu.gpa.scale}
+                        </span>
 
                         {/* Years */}
                         <span className="text-[#ffffff]">
@@ -48,10 +52,6 @@ export default function Education() {
                             {edu.end.month} {edu.end.year}
                         </span>
 
-                        {/* GPA */}
-                        <span>
-                            {edu.gpa.value} / {edu.gpa.scale}
-                        </span>
 
                         {/* Notes */}
                         <span className="text-sm">
@@ -82,12 +82,13 @@ export default function Education() {
                             Secondary Education
                         </span>
 
+                        <span className="text-gray-400">—</span>
+
                         <span className="text-[#ffffff]/80">
                             {edu.start.month} {edu.start.year} -{" "}
                             {edu.end.month} {edu.end.year}
                         </span>
 
-                        <span className="text-gray-400">—</span>
                         <span className="text-gray-400">—</span>
                     </div>
                 ))}
