@@ -6,6 +6,7 @@ import RootLayout from './pages/Root';
 import HomePage from './pages/Home';
 import AboutMePage from './pages/AboutMe';
 import ContactPage from './pages/Contact';
+import ExternalLinksPage from './pages/ExternalLinks';
 
 const router = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
             {
                 path: 'contact',
                 element: <ContactPage />
+            },
+            {
+                path: 'external',
+                element: <ExternalLinksPage />
             }
         ]
     }
