@@ -1,8 +1,8 @@
 
 export default function External() {
   return (
-    <h1>
-      Links...
-    </h1>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-[#100d74] text-white px-6">
+      Links... to be added...
+    </div>
   )
 }

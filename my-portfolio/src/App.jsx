@@ -7,6 +7,7 @@ import HomePage from './pages/Home';
 import AboutMePage from './pages/AboutMe';
 import ContactPage from './pages/Contact';
 import ExternalLinksPage from './pages/ExternalLinks';
+import ErrorPage from './pages/Error';
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path: 'external',
                 element: <ExternalLinksPage />
+            },
+            {
+                path:'*',
+                element: <ErrorPage />
             }
         ]
     }
