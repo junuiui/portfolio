@@ -31,10 +31,6 @@ const router = createBrowserRouter([
                 element: <ExternalLinksPage />
             },
             {
-                path: 'external',
-                element: <ExternalLinksPage />
-            },
-            {
                 path:'*',
                 element: <ErrorPage />
             }

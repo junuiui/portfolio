@@ -67,6 +67,20 @@ function MainNavigation() {
                             External
                         </NavLink>
                     </li>
+                    {/*  */}
+                    <li>
+                        <NavLink
+                            to="/external"
+                            className={ ({ isActive }) =>
+                                `relative transition-all font-semibold text-[#ffffff] 
+                                hover:text-[#e5ff00] ${isActive ? "after:block after:h-1 after:w-full after:bg-[#ffffff] after:absolute after:-bottom-2" : ""
+                                }`
+                            }
+                        >
+                            External
+                        </NavLink>
+                    </li>
+                    {/*  */}
                 </ul>
 
             </nav>
