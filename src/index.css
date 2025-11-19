@@ -1,9 +1,6 @@
 /* Tailwind */
 @import "tailwindcss";
 
-/* importing new */
-@import "@kfonts/neodgm/index.css";
-
 @theme {
     --font-sans: "Neo둥근모", "NeoDunggeunmo";
     --font-mono: font-family: 'Neo둥근모 Code', 'NeoDunggeunmo Code', monospace;

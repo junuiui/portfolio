@@ -4,6 +4,9 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
     plugins: [react()],
+    build: {
+        assetsInlineLimit: 0, 
+    },
     base: process.env.NODE_ENV === 'production'
         ? process.env.VITE_BASE_PATH || '/junuihong-portfolio'
         : '/'
