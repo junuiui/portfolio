@@ -4,9 +4,9 @@
 /* importing new */
 @import "@kfonts/neodgm/index.css";
 
-:root {
+@theme {
     --font-sans: "Neo둥근모", "NeoDunggeunmo", sans-serif;
-    --font-mono: 'Neo둥근모 Code', 'NeoDunggeunmo Code', monospace;
+    --font-mono: font-family: 'Neo둥근모 Code', 'NeoDunggeunmo Code', monospace;
 }
 
 @keyframes fadeIn {
